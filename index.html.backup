@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Jithin's Resume</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/vendor.css">
+
+    <!-- script
+    ================================================== -->
+    <script defer src="js/vendor/fontawesome/all.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+
+
+
+    
+
+</head>
+
+<body id="top" class="ss-preload">
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+        <div class="row s-header__nav-wrap">
+            <nav class="s-header__nav">
+                <ul>
+                    <li class="current"><a class="smoothscroll" href="#hero">Home</a></li>
+                    <li><a class="smoothscroll" href="#about">About</a></li>
+                    <li><a class="smoothscroll" href="#education">Education</a></li>
+                    <li><a class="smoothscroll" href="#volunter">Voluntering</a></li>
+                    <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+                    <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
+                    <li><a class="smoothscroll" href="#contact">Say Hello</a></li>
+                </ul>
+            </nav>
+        </div> <!-- end row -->
+
+        <a class="s-header__menu-toggle" href="#0" title="Menu">
+            <span class="s-header__menu-icon"></span>
+        </a>
+    </header> <!-- end s-header -->
+
+
+    <!-- hero
+    ================================================== -->
+    <section id="hero" class="s-hero target-section">
+
+        <div class="s-hero__bg rellax" data-rellax-speed="-7"></div>
+
+        <div class="row s-hero__content">
+            <div class="column">
+
+                <div class="s-hero__content-about">
+
+                    <h1>I'm Jithin T.</h1>
+
+                    <h3>
+                    <span>Engineer by Education</span> | <span>Techonologist by Nature</span> | <span>Generalist by Experience</span>
+                    </h3>
+
+                    <div class="s-hero__content-social">
+                        <!--<a href="#0"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>-->
+
+                        <a href="https://www.linkedin.com/in/jithinthulase/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/jithin.t__/" title="Instagram"><i class="fab fa-instagram"></i></a>
+                       <a href="https://github.com/jth-1996" title="Github"><i class="fab fa-github"></i></a>
+                    </div>
+
+                </div> <!-- end s-hero__content-about -->
+
+            </div>
+        </div> <!-- s-hero__content -->
+
+        <div class="s-hero__scroll">
+            <a href="#about" class="s-hero__scroll-link smoothscroll">
+                <span class="scroll-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M18.707 12.707L17.293 11.293 13 15.586 13 6 11 6 11 15.586 6.707 11.293 5.293 12.707 12 19.414z"></path></svg>
+                </span>
+                <span class="scroll-text">Scroll Down</span>
+            </a>
+        </div> <!-- s-hero__scroll -->
+
+    </section> <!-- end s-hero -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="row">
+            <div class="column large-3 tab-12">
+                <img class="s-about__pic" src="images/avatars/profilepic.jpg" alt="Profile Picture">
+            </div>
+            <div class="column large-9 tab-12 s-about__content">
+                <h3>About Me</h3>
+                <p>
+                  I'm a Manila based <span>graphic designer</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and
+                  effective visual identities for companies of all sizes around the globe.
+
+                  An electrical engineering graduate, passionate about people, things, and technology. A great communicator who likes to work in a challenging environment where I can improve myself.Looking forward to connecting with people, building a network. I aim to land a job where I can contribute as a person and as a team player, and a place where I can learn and progress.
+                </p>
+
+                <hr>
+
+                <div class="row s-about__content-bottom">
+                    <div class="column w-1000-stack">
+                        <h3>Contact Details</h3>
+
+                        <a href="tel:+919447127836"><i class="fa fa-mobile"></i> +91 9447127836</a> <br>
+                        <a href="mailto:jithin.1005@gmail.com"><i class="fa fa-envelope"></i> jithin.1005@gmail.com</a>
+                        </p>
+
+                    </div>
+                    <div class="column w-1000-stack">
+                        <a href="Jithin-T-Resume.pdf" class="btn btn--download">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M12 16L16 11 13 11 13 4 11 4 11 11 8 11z"></path><path d="M20,18H4v-7H2v7c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2v-7h-2V18z"></path></svg>
+                            Download Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end row -->
+
+    </section> <!-- end s-about -->
+
+
+
+
+    <!--Education ==================================================================-->
+    <section id="education" class="s-resume target-section">
+            <div class="row s-resume__section">
+                <div class="column large-3 tab-12">
+                    <h3 class="section-header-allcaps">Education</h3>
+                </div>
+                <div class="column large-9 tab-12">
+                    <div class="resume-block">
+
+                        <div class="resume-block__header">
+                            <h4 class="h3">College of Engineering; Trivandrum, Kerala</h4>
+                            <p class="resume-block__header-meta">
+                                <span>Master of Technology</span>
+                                <span class="resume-block__header-date">
+                                    11/2020 - 09/2022
+                                </span>
+                            </p>
+                        </div>
+
+                        <p>
+                        Majoring in Power Systems
+                        </p>
+
+                    </div> <!-- end resume-block -->
+
+
+                    <div class="resume-block">
+
+                        <div class="resume-block__header">
+                            <h4 class="h3">TKM College of Engineering; Kollam, Kerala</h4>
+                            <p class="resume-block__header-meta">
+                                <span>Bachelor of Technology</span>
+                                <span class="resume-block__header-date">
+                                    08/2014 - 07/2019
+                                </span>
+                            </p>
+                        </div>
+
+                        <p>
+                        Majored in Electrical and Electronics Engineering
+                        </p>
+
+                    </div> <!-- end resume-block -->
+                </div>
+            </div> <!-- s-resume__section -->
+
+
+
+            <div class="row s-resume__section">
+                <div class="column large-3 tab-12">
+                    <h3 class="section-header-allcaps">Academic Pojects</h3>
+                </div>
+                <div class="column large-9 tab-12">
+                    <div class="resume-block">
+
+                        <div class="resume-block__header">
+                            <h4 class="h3">Inertia Control Of Hybrid AC/DC Microgrid</h4>
+                            <p class="resume-block__header-meta">
+                                <span>Under Guidance of <a href="http://ee.cet.ac.in/faculty/tr.html"> Dr. T. Rajeev</a></span>
+                                <span class="resume-block__header-date">
+                                    2022
+                                </span>
+                            </p>
+                        </div>
+
+                        <p>
+                          Designed and tested a new control algorithm for inertia control in hybrid
+microgrids using supercapacitors. The developed algorithm was implemented
+on a TI Delfino class microcontroller using simulink. The controller
+was tested using Hardware-in-Loop testing on realtime simulation platform
+OPAL-RT.
+                        </p>
+
+                    </div> <!-- end resume-block -->
+
+
+                    <div class="resume-block">
+
+                        <div class="resume-block__header">
+                            <h4 class="h3">Full Spectrum Simulator for Hydroelectric Power Plant</h4>
+                            <p class="resume-block__header-meta">
+                                <span>Guided by <a href="https://www.tkmce.ac.in/staff-profile.php?id=142&slug=bijuna-kunju-k"> Dr. Bijuna Kunju</a></span>
+                                <span class="resume-block__header-date">
+                                    2018
+                                </span>
+                            </p>
+                        </div>
+
+                        <p>
+                          We developed a transient model of a power plant, and designed a software
+  capable of performing Control Hardware in Loop testing on modern-day
+  Integrated Electronic Devices (relays and measurements units) and control
+  room Human Machine Interfaces.
+  This project was funded and supported by Centre for Engineering Research
+  and Development, Government of Kerala.
+                        </p>
+
+                    </div> <!-- end resume-block -->
+                </div>
+            </div> <!-- s-resume__section -->
+
+
+
+
+            <div  class="row s-resume__section">
+                <div class="column large-3 tab-12">
+                    <h3 class="section-header-allcaps">Publications</h3>
+                </div>
+                <div class="column large-9 tab-12">
+                    <div class="resume-block">
+
+                        <div class="resume-block__header">
+                            <h4 class="h3"><a href="https://ieeexplore.ieee.org/document/9776860">Inertia control of hybrid ac/dc microgrid using supercapacitors</a></h4>
+                            <p class="resume-block__header-meta">
+                                <span>T. Jithin,T. Rajeev, and S. Jithin,</span>
+                                <span class="resume-block__header-date">
+                                    2022
+                                </span>
+                            </p>
+                        </div>
+
+                        <p>
+                          Second International Conference on Power, Control and Computing Technologies (ICPC2T), 2022 pp. 1-4, doi: 10.1109/ICPC2T53885.2022.9776860, Find paper at<a href="https://ieeexplore.ieee.org/document/9776860">IEEE Xplore</a>
+                        </p>
+
+                    </div> <!-- end resume-block -->
+
+
+                    <div class="resume-block">
+
+                        <div class="resume-block__header">
+                            <h4 class="h3">Smart Bi-Directional Inverter for Distributed Generation</h4>
+                            <p class="resume-block__header-meta">
+                                <span>T. Jithin and Bijo J. Panicker</span>
+                                <span class="resume-block__header-date">
+                                    2017
+                                </span>
+                            </p>
+                        </div>
+
+                        <p>
+                        Kerala Technological Congress ( KETCON-2017 Energy Technologies ), 2017
+                        </p>
+
+                    </div> <!-- end resume-block -->
+                </div>
+            </div> <!-- s-resume__section -->
+
+
+
+    </section>
+    <!--===============================Education Ends ==========================================-->
+
+    <!-- Voluntering
+    ================================================== -->
+    <section id="volunter" class="s-resume target-section">
+
+      <!--Skills Begins-->
+
+
+              <div class="row s-resume__section">
+                  <div class="column large-3 tab-12">
+                      <h3 class="section-header-allcaps">Skills</h3>
+                  </div>
+                  <div class="column large-9 tab-12">
+                      <div class="resume-block">
+
+                          <p>
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore
+                          vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet. Vitae
+                          aut atque fuga dolorem. Vel voluptatibus fugiat nam. Impedit aperiam
+                          nesciunt facilis! Porro architecto dicta inventore tempora ratione quia odio.
+                          </p>
+
+                          <ul class="skill-bars-fat">
+                              <li>
+                              <div class="progress percent85"></div>
+                              <strong>HTML</strong>
+                              </li>
+                              <li>
+                              <div class="progress percent85"></div>
+                              <strong>CSS</strong>
+                              </li>
+                              <li>
+                              <div class="progress percent65"></div>
+                              <strong>Javascript</strong>
+                              </li>
+                              <li>
+                              <div class="progress percent90"></div>
+                              <strong>Figma</strong>
+                              </li>
+                              <li>
+                              <div class="progress percent75"></div>
+                              <strong>Illustrator</strong>
+                              </li>
+                              <li>
+                              <div class="progress percent60"></div>
+                              <strong>Photoshop</strong>
+                              </li>
+                          </ul>
+
+                      </div> <!-- end resume-block -->
+
+                  </div>
+              </div> <!-- s-resume__section -->
+
+      <!-- Skills Ends-->
+
+
+      <!--new skills begins-->
+
+      <!-- New Skills ends-->
+
+      <!-- Voluntering Begind-->
+        <div class="row s-resume__section">
+            <div class="column large-3 tab-12">
+                <h3 class="section-header-allcaps">Volunterring</h3>
+            </div>
+            <div class="column large-9 tab-12">
+                <div class="resume-block">
+
+                    <div class="resume-block__header">
+                        <h4 class="h3">College Students Union; College of Engineering, Trivandrum</h4>
+                        <p class="resume-block__header-meta">
+                            <span>PG Stream Representative</span>
+                            <span class="resume-block__header-date">
+                                01/2022 - 09/2022
+                            </span>
+                        </p>
+                    </div>
+
+                    <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore
+                    vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet. Vitae
+                    aut atque fuga dolorem. Vel voluptatibus fugiat nam. Impedit aperiam
+                    nesciunt facilis! Porro architecto dicta inventore tempora ratione quia odio.
+                    </p>
+
+                </div> <!-- end resume-block -->
+
+                <div class="resume-block">
+
+                    <div class="resume-block__header">
+                        <h4 class="h3">Career Guidance and Placement Unit; TKM College of Engineering</h4>
+                        <p class="resume-block__header-meta">
+                            <span>Students Representative</span>
+                            <span class="resume-block__header-date">
+                                01/2017 - 07/2018
+                            </span>
+                        </p>
+                    </div>
+
+                    <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore
+                    vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet. Vitae
+                    aut atque fuga dolorem. Vel voluptatibus fugiat nam. Impedit aperiam
+                    nesciunt facilis! Porro architecto dicta inventore tempora ratione quia odio.
+                    </p>
+
+                </div> <!-- end resume-block -->
+                <div class="resume-block">
+
+                    <div class="resume-block__header">
+                        <h4 class="h3">IEEE Industrial Application Society SBC; TKM College of Engineering </h4>
+                        <p class="resume-block__header-meta">
+                            <span>Chapter Chair</span>
+                            <span class="resume-block__header-date">
+                                01/2017 - 12/2017
+                            </span>
+                        </p>
+                    </div>
+
+                    <p>
+                    Have been organizing events under IEEE SBC banner ensuring they cite the need to bridge the gap between industry and academia.
+                    </p>
+
+                </div> <!-- end resume-block -->
+
+
+                <div class="resume-block">
+
+                    <div class="resume-block__header">
+                        <h4 class="h3">IEEE Student Branch; TKM College of Engineering </h4>
+                        <p class="resume-block__header-meta">
+                            <span>Technical Coordinator</span>
+                            <span class="resume-block__header-date">
+                                01/2016 - 12/2016
+                            </span>
+                        </p>
+                    </div>
+
+                    <p>
+                    Advisor to executive committee to organize quality technical programs which can equip the audience with necessary skill set to face the industry
+                    </p>
+
+                </div> <!-- end resume-block -->
+
+                <div class="resume-block">
+
+                    <div class="resume-block__header">
+                        <h4 class="h3">OS red <a href="https://www.facebook.com/teamosred"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></h4>
+                        <p class="resume-block__header-meta">
+                            <span>Founding Partner, Lead Mentor</span>
+                            <span class="resume-block__header-date">
+                                10/2015 - 07/2018
+                            </span>
+                        </p>
+                    </div>
+
+                    <p>
+                      OS red is a tech enthusiast group formed by a few Undergraduate students of TKMCE. We organize and coordinate workshops and talk sessions so that students are introduced to the new technology at an earlier stage.
+                    </p>
+
+                </div> <!-- end resume-block -->
+            </div>
+        </div> <!-- s-resume__section -->
+
+<!-- Voluntering ends-->
+
+
+
+    </section> <!-- end s-resume -->
+
+
+    <!-- portfolio
+    ================================================== -->
+    <section id="portfolio" class="s-portfolio target-section">
+
+        <div class="row s-portfolio__header">
+            <div class="column large-12">
+                <h3>A Few Of My Latest Creations</h3>
+            </div>
+        </div>
+
+        <div class="row collapse block-large-1-4 block-medium-1-3 block-tab-1-2 block-500-stack folio-list">
+
+            <div class="column folio-item">
+                <a href="#modal-01" class="folio-item__thumb">
+                    <img src="images/portfolio/droplet.jpg"
+                         srcset="images/portfolio/droplet.jpg 1x,
+                                 images/portfolio/droplet@2x.jpg 2x" alt="">
+                </a>
+            </div> <!-- end folio-item -->
+
+            <div class="column folio-item">
+                <a href="#modal-02" class="folio-item__thumb">
+                    <img src="images/portfolio/lamp.jpg"
+                         srcset="images/portfolio/lamp.jpg 1x,
+                                 images/portfolio/lamp@2x.jpg 2x" alt="">
+                </a>
+            </div> <!-- end folio-item -->
+
+            <div class="column folio-item">
+                <a href="#modal-03" class="folio-item__thumb">
+                    <img src="images/portfolio/minimalismo.jpg"
+                         srcset="images/portfolio/minimalismo.jpg 1x,
+                                 images/portfolio/minimalismo@2x.jpg 2x" alt="">
+                </a>
+            </div> <!-- end folio-item -->
+
+            <div class="column folio-item">
+                <a href="#modal-04" class="folio-item__thumb">
+                    <img src="images/portfolio/shutterbug.jpg"
+                         srcset="images/portfolio/shutterbug.jpg 1x,
+                                 images/portfolio/shutterbug@2x.jpg 2x" alt="">
+                </a>
+            </div> <!-- end folio-item -->
+
+            <div class="column folio-item">
+                <a href="#modal-05" class="folio-item__thumb">
+                    <img src="images/portfolio/fuji.jpg"
+                         srcset="images/portfolio/fuji.jpg 1x,
+                                 images/portfolio/fuji@2x.jpg 2x" alt="">
+                </a>
+            </div> <!-- end folio-item -->
+
+            <div class="column folio-item">
+                <a href="#modal-06" class="folio-item__thumb">
+                    <img src="images/portfolio/skaterboy.jpg"
+                         srcset="images/portfolio/skaterboy.jpg 1x,
+                                 images/portfolio/skaterboy@2x.jpg 2x" alt="">
+                </a>
+            </div> <!-- end folio-item -->
+
+            <div class="column folio-item">
+                <a href="#modal-07" class="folio-item__thumb">
+                    <img src="images/portfolio/rucksack.jpg"
+                         srcset="images/portfolio/rucksack.jpg 1x,
+                                 images/portfolio/rucksack@2x.jpg 2x" alt="">
+                </a>
+            </div> <!-- end folio-item -->
+
+            <div class="column folio-item">
+                <a href="#modal-08" class="folio-item__thumb">
+                    <img src="images/portfolio/sanddunes.jpg"
+                         srcset="images/portfolio/sanddunes.jpg 1x,
+                                 images/portfolio/sanddunes@2x.jpg 2x" alt="">
+                </a>
+            </div> <!-- end folio-item -->
+
+        </div> <!-- end folio-list -->
+
+
+        <!-- Modal Templates Popup
+        =========================================================== -->
+        <div id="modal-01" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/gallery/g-droplet.jpg" alt="" />
+
+                <div class="modal-popup__desc">
+                    <h5>Droplet</h5>
+                    <p>Odio soluta enim quos sit asperiores rerum rerum repudiandae cum. Vel voluptatem alias qui assumenda iure et expedita voluptatem. Ratione officiis quae.</p>
+                    <ul class="modal-popup__cat">
+                        <li>Branding</li>
+                        <li>Product Design</li>
+                    </ul>
+                </div>
+
+                <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
+            </div>
+        </div> <!-- end modal -->
+
+        <div id="modal-02" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/gallery/g-lamp.jpg" alt="" />
+
+                <div class="modal-popup__desc">
+                    <h5>The Lamp</h5>
+                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                    <ul class="modal-popup__cat">
+                        <li>Branding</li>
+                    </ul>
+                </div>
+
+                <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
+            </div>
+        </div> <!-- end modal -->
+
+        <div id="modal-03" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/gallery/g-minimalismo.jpg" alt="" />
+
+                <div class="modal-popup__desc">
+                    <h5>Minimalismo</h5>
+                    <p>Exercitationem reprehenderit quod explicabo consequatur aliquid ut magni ut. Deleniti quo corrupti illum velit eveniet ratione necessitatibus ipsam mollitia.</p>
+                    <ul class="modal-popup__cat">
+                        <li>Product Design</li>
+                    </ul>
+                </div>
+
+                <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
+            </div>
+        </div> <!-- end modal -->
+
+        <div id="modal-04" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/gallery/g-shutterbug.jpg" alt="" />
+
+                <div class="modal-popup__desc">
+                    <h5>Shutterbug</h5>
+                    <p>Dolores velit qui quos nobis. Aliquam delectus voluptas quos possimus non voluptatem voluptas voluptas. Est doloribus eligendi porro doloribus voluptatum.</p>
+                    <ul class="modal-popup__cat">
+                        <li>E-Commerce</li>
+                    </ul>
+                </div>
+
+                <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
+            </div>
+        </div> <!-- end modal -->
+
+        <div id="modal-05" hidden>
+            <div class="modal-popup">
+
+                <img src="images/portfolio/gallery/g-fuji.jpg" alt="" />
+
+                <div class="modal-popup__desc">
+                    <h5>Fuji</h5>
+                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                    <ul class="modal-popup__cat">
+                        <li>Product Design</li>
+                    </ul>
+                </div>
+
+                <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
+            </div>
+        </div> <!-- end modal -->
+
+        <div id="modal-06" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/gallery/g-skaterboy.jpg" alt="" />
+
+                <div class="modal-popup__desc">
+                    <h5>Skaterboy</h5>
+                    <p>Quisquam vel libero consequuntur autem voluptas. Qui aut vero. Omnis fugit mollitia cupiditate voluptas. Aenean sollicitudin, lorem quis bibendum auctor.</p>
+                    <ul class="modal-popup__cat">
+                        <li>Branding</li>
+                        <li>Product Design</li>
+                    </ul>
+                </div>
+
+                <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
+            </div>
+        </div> <!-- end modal -->
+
+        <div id="modal-07" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/gallery/g-rucksack.jpg" alt="" />
+
+                <div class="modal-popup__desc">
+                    <h5>Rucksack</h5>
+                    <p>Odio soluta enim quos sit asperiores rerum rerum repudiandae cum. Vel voluptatem alias qui assumenda iure et expedita voluptatem. Ratione officiis quae.</p>
+                    <ul class="modal-popup__cat">
+                        <li>Branding</li>
+                        <li>Product Design</li>
+                    </ul>
+                </div>
+
+                <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
+            </div>
+        </div> <!-- end modal -->
+
+        <div id="modal-08" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/gallery/g-sanddunes.jpg" alt="" />
+
+                <div class="modal-popup__desc">
+                    <h5>Sand Dunes</h5>
+                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                    <ul class="modal-popup__cat">
+                        <li>Web Design</li>
+                    </ul>
+                </div>
+
+                <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
+            </div>
+        </div> <!-- end modal -->
+
+
+    </section> <!-- end s-portfolio -->
+
+
+
+
+
+    <!-- testimonials
+    ================================================== -->
+    <section id="testimonials" class="s-testimonials target-section">
+
+        <div class="s-testimonials__bg"></div>
+
+        <div class="row s-testimonials__header">
+            <div class="column large-12">
+                <h3>Hear What My Clients Says</h3>
+            </div>
+        </div>
+
+        <div class="row s-testimonials__content">
+
+            <div class="column">
+
+                <div class="swiper-container testimonial-slider">
+
+                    <div class="swiper-wrapper">
+
+                        <div class="testimonial-slider__slide swiper-slide">
+                            <div class="testimonial-slider__author">
+                                <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonial-slider__avatar">
+                                <cite class="testimonial-slider__cite">
+                                    <strong>Tim Cook</strong>
+                                    <span>CEO, Apple</span>
+                                </cite>
+                            </div>
+                            <p>
+                            Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem.
+                            Explicabo a quaerat sint autem dolore ducimus ut consequatur neque.  Nisi dolores quaerat fuga rem nihil nostrum.
+                            Laudantium quia consequatur molestias delectus culpa.
+                            </p>
+                        </div> <!-- end testimonial-slider__slide -->
+
+                        <div class="testimonial-slider__slide swiper-slide">
+                            <div class="testimonial-slider__author">
+                                <img src="images/avatars/user-03.jpg" alt="Author image" class="testimonial-slider__avatar">
+                                <cite class="testimonial-slider__cite">
+                                    <strong>Sundar Pichai</strong>
+                                    <span>CEO, Google</span>
+                                </cite>
+                            </div>
+                            <p>
+                            Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
+                            Nisi eaque consequatur. Voluptatem dignissimos ut ducimus accusantium perspiciatis.
+                            Quasi voluptas eius distinctio. Atque eos maxime.
+                            </p>
+                        </div> <!-- end testimonial-slider__slide -->
+
+                        <div class="testimonial-slider__slide swiper-slide">
+                            <div class="testimonial-slider__author">
+                                <img src="images/avatars/user-04.jpg" alt="Author image" class="testimonial-slider__avatar">
+                                <cite class="testimonial-slider__cite">
+                                    <strong>Satya Nadella</strong>
+                                    <span>CEO, Microsoft</span>
+                                </cite>
+                            </div>
+                            <p>
+                            Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.
+                            Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.
+                            Voluptatem dignissimos ut.
+                            </p>
+                        </div> <!-- end testimonial-slider__slide -->
+
+                        <div class="testimonial-slider__slide swiper-slide">
+                            <div class="testimonial-slider__author">
+                                <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonial-slider__avatar">
+                                <cite class="testimonial-slider__cite">
+                                    <strong>Jeff Bezos</strong>
+                                    <span>CEO, Amazon</span>
+                                </cite>
+                            </div>
+                            <p>
+                            Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc ac augue. Fusce vel dui. In ac felis
+                            quis tortor malesuada pretium. Curabitur vestibulum aliquam leo. Qui sed at corrupti expedita voluptas odit.
+                            Nihil ea quia nesciunt. Ducimus aut sed ipsam.
+                            </p>
+                        </div> <!-- end testimonial-slider__slide -->
+
+                    </div> <!-- end testimonial slider swiper-wrapper -->
+
+                    <div class="swiper-pagination"></div>
+
+                </div> <!-- end swiper-container -->
+
+            </div> <!-- end column -->
+
+        </div> <!-- end row -->
+
+    </section> <!-- end s-testimonials -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
+
+        <div class="row s-contact__header">
+            <div class="column large-12">
+                <h3 class="section-header-allcaps">Say Hello</h3>
+            </div>
+        </div>
+
+        <div class="row s-contact__content">
+
+            <div class="column large-7 medium-12">
+
+                <h4 class="huge-text">
+                Have a new project in mind? Let's collaborate and build something awesome.
+                Let's turn that idea to an even greater product :)
+                </h4>
+
+            </div>
+
+            <div class="column large-4 medium-12">
+
+                <div class="row contact-infos">
+                    <div class="column large-12 medium-6 tab-12">
+                        <div class="contact-block">
+                            <h5 class="contact-block__header">
+                                Email
+                            </h5>
+                            <p class="contact-block__content">
+                                <a class="mailtoui" href="mailto:jithin.1005@gmail.com">jithin.1005@gmail.com</a>
+                            </p>
+                        </div> <!-- end contact-block -->
+                    </div>
+                    <div class="column large-12 medium-6 tab-12">
+                        <div class="contact-block">
+                            <h5 class="contact-block__header">
+                                Phone
+                            </h5>
+                            <p class="contact-block__content">
+                                <a href="tel:+919447127836">+91 9447127836</a>
+                            </p>
+                        </div> <!-- end contact-block -->
+                    </div>
+
+                    <div class="column large-12">
+                        <a href="mailto:jithin.1005@gmail.com" class="mailtoui btn btn--primary h-full-width">Let's Talk</a>
+                    </div>
+                </div> <!-- end contact-infos -->
+
+            </div>
+        </div> <!-- s-contact__content -->
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer class="s-footer">
+        <div class="row">
+            <div class="column large-4 medium-6 w-1000-stack s-footer__social-block">
+                <ul class="s-footer__social">
+                    <!--<li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>-->
+
+
+                    <li><a href="https://www.linkedin.com/in/jithinthulase/" title="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/jithin.t__/" title="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/jth-1996" title="Github"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+
+                </ul>
+            </div>
+
+            <div class="column large-7 medium-6 w-1000-stack ss-copyright">
+                <span>© Copyright Jithin T 2022</span>
+                <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+            </div>
+        </div>
+
+        <div class="ss-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"/></svg>
+             </a>
+        </div> <!-- end ss-go-top -->
+    </footer>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
